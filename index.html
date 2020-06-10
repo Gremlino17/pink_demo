@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pink</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container burg">
+            <div class="header__image">
+                <div class="header-bgr">
+                    <img class="imgbgr" src="img/header/bgr.jpg" alt="">
+                </div>
+            </div>
+            <div class="header-menu menu">
+                <nav class="menu-nav">
+                    <a class="menu-nav__stroke aktiv" href="#">home</a>
+                    <a class="menu-nav__stroke" href="#what">What i do</a>
+                    <a class="menu-nav__stroke" href="#works">My works</a>
+                    <a class="menu-nav__stroke" href="#about">About</a>
+                    <a class="menu-nav__stroke" href="#footer">Contact</a>
+                </nav>
+            </div>
+            <div class="header-title">
+                <h1 class="header-title__big">Tacos cardigan<br>truffaut Quanted!</h1>
+                <div class="header-ocular">
+                    <img class="header-ocular__ocular" src="img/header/ocular.png" alt="">
+                </div>
+                <div class="header-button ">
+                    <div class="header-button__line line-button">
+                        <button class="header-button__see btn1">see more</button>
+                    </div>
+                    <div class="header-scrooll line-scroll">
+                        <div class="header-scr btn-scrooll"></div>
+                    </div>
+                </div>
+            </div>
+            <svg class="filter" version="1.1">
+                <defs>
+                    <filter id="gooeyness">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10"
+                            result="gooeyness" />
+                        <feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+                    </filter>
+                </defs>
+            </svg>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="burger-menu"></div>
+        </div>
+    </header>
+    <section class="what" id="what">
+        <div class="container">
+            <div class="what-body">
+                <div class="what-body__text">
+                    <div class="what-body__big title-big">
+                        <h1 class="title-big__text">what i do</h1>
+                        <span class="title-big__polosa"></span>
+                    </div>
+                    <p class="what-body__smool">Fingerstache green juice semiotics quinoa, truffaut letterpress wolf
+                        photo booth ugh biodiesel mumblecore brunvch. Meh austin vinyl banh mi, gluten-free chillwave
+                        scenester kombucha street art. Before they sold out lumbersexual chillwave, cold-pressed
+                        mumblecore beard pickled letterpress normcore crucifix.</p>
+                </div>
+                <div class="what-body__skil skill">
+                    <div class="skill__item">
+                        <div class="skill__image">
+                            <div>
+                                <img src="img/skill/1.png" alt="">
+                            </div>
+                        </div>
+                        <h2 class="skill__title">ultricies</h2>
+                        <p class="skill__text">Four dollar toast messenger bag green juice, organic cliche tofu synth
+                            small batch locavore austin. Squid mlkshk authe ntic pinterest, pour-over gastropub XOXO
+                            seitan sartorial humblebrag.
+                        </p>
+                    </div>
+                    <div class="skill__item">
+                        <div class="skill__image">
+                            <div>
+                                <img src="img/skill/2.png" alt="">
+                            </div>
+                        </div>
+                        <h2 class="skill__title">porttitor</h2>
+                        <p class="skill__text">Tofu mixtape selfies, swag brooklyn banh mi stumptown loca vore yr migas
+                            tousled chicharrones sriracha cray leggings. Street art tousled kale chips poutine schlitz.
+                            Pitchfork distillery next level, polaroid roof party austin.
+                        </p>
+                    </div>
+                    <div class="skill__item">
+                        <div class="skill__image">
+                            <div>
+                                <img src="img/skill/3.png" alt="">
+                            </div>
+                        </div>
+                        <h2 class="skill__title">curabitur</h2>
+                        <p class="skill__text">Dreamcatcher deep v austin schlitz drinking vinegar, messen ger bag
+                            slow-carb. Migas tumblr kombucha you probably hav en't heard of them +1 chicharrones. Tilde
+                            wayfarers craft beer stumptown, humblebrag ugh whatever.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="works" id="works">
+        <div class="works-body__text">
+            <div class="works-body__big title-big">
+                <h1 class="title-big__text">my works</h1>
+                <span class="title-big__polosa"></span>
+            </div>
+        </div>
+        <div class="works-body__image">
+            <div class="works-image">
+                <img src="img/works/1.jpg" alt="" class="mgbgr">
+            </div>
+        </div>
+        <div class="works-button ">
+            <div class="works-button__line line-button">
+                <button class="works-button__see btn1">load more</button>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-body">
+                <div class="about-body__text">
+                    <div class="about-body__big title-big">
+                        <h1 class="title-big__text">about my</h1>
+                        <span class="title-big__polosa"></span>
+                    </div>
+                    <div class="about-scrooll line-scroll">
+                        <div class="about-scr btn-scrooll"></div>
+                    </div>
+                    <p class="about-body__smool">Fingerstache green juice semiotics quinoa, truffaut letterpress wolf
+                        photo booth ugh biodiesel mumblecore brunvch. Meh austin vinyl banh mi, gluten-free chillwave
+                        scenester kombucha street art. Before they sold out lumbersexual chillwave, cold-pressed
+                        mumblecore beard pickled letterpress normcore crucifix.</p>
+                </div>
+                <div class="about-body__circl circl-body">
+                    <div class="circl-body__item">
+                        <div class="circl__image">
+                            <div>
+                                <img src="img/about/1.png" alt="">
+                            </div>
+                        </div>
+                        <p class="circl-body__proc">75%</p>
+                        <h2 class="circl-body__title">Photoshop</h2>
+                        <p class="circl-body__text">Four dollar toast messenger bag green juice, organic cliche tofu
+                            synth
+                            small batch locavore austin. Squid mlkshk authe ntic pinterest, pour-over gastropub XOXO
+                            seitan sartorial humblebrag.
+                        </p>
+                    </div>
+                    <div class="circl-body__item">
+                        <div class="circl__image">
+                            <div>
+                                <img src="img/about/2.png" alt="">
+                            </div>
+                        </div>
+                        <p class="circl-body__proc">15%</p>
+                        <h2 class="circl-body__title">Illustrator</h2>
+                        <p class="circl-body__text">Four dollar toast messenger bag green juice, organic cliche tofu
+                            synth
+                            small batch locavore austin. Squid mlkshk authe ntic pinterest, pour-over gastropub XOXO
+                            seitan sartorial humblebrag.
+                        </p>
+                    </div>
+                    <div class="circl-body__item">
+                        <div class="circl__image">
+                            <div>
+                                <img src="img/about/3.png" alt="">
+                            </div>
+                        </div>
+                        <p class="circl-body__proc">35%</p>
+                        <h2 class="circl-body__title">knitting</h2>
+                        <p class="circl-body__text">Four dollar toast messenger bag green juice, organic cliche tofu
+                            synth
+                            small batch locavore austin. Squid mlkshk authe ntic pinterest, pour-over gastropub XOXO
+                            seitan sartorial humblebrag.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="contact-body">
+                <div class="contact-body__left left-body">
+                    <form class="left-body__forma" action="">
+                        <h2 class="left-body__title">Name:</h2>
+                        <p class="left-body__name"><input type="text" name="name" id="name"></p>
+                        <h2 class="left-body__title">email:</h2>
+                        <p class="left-body__email"><input type="email" name="email" id="email"></p>
+                        <h2 class="left-body__title">message</h2>
+                        <p class="left-body__message"><textarea name="message" id="message" cols="30"
+                                rows="10"></textarea></p>
+                        <div class="left-body__button contact-button">
+                            <div class="contact-button__line line-button">
+                                <button class="contact-button__see btn1">send</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="left-body__copyright">Copyright 2015 © by Anna Dadej</p>
+                </div>
+                <div class="contact-body__right right-body">
+                    <div class="right-body__big title-big">
+                        <h1 class="title-big__text">contact</h1>
+                        <span class="title-big__polosa"></span>
+                    </div>
+                    <div class="right-body__icon contact-icon">
+                        <a href="https://ru-ru.facebook.com/" target="_blank"><span
+                                class="contact-icon__fb">1</span></a>
+                        <a href="https://www.instagram.com/?hl=ru" target="_blank"><span
+                                class="contact-icon__tw">2</span></a>
+                        <a href="https://www.pinterest.ru/" target="_blank"><span class="contact-icon__go">3</span></a>
+                        <a href="#" target="_blank"><span class="contact-icon__pi">4</span></a>
+                        <a href="https://twitter.com/explore" target="_blank"><span
+                                class="contact-icon__in">5</span></a>
+                    </div>
+                    <div class="right-body__adres">
+                        <h2 class="right-body__name">address</h2>
+                        <p class="right-body__text">9114 Bridge Street , <br> Hillsboro, OR 97124</p>
+                    </div>
+                    <div class="right-body__block">
+                        <div class="right-body__phone">
+                            <h2 class="right-body__name">phone</h2>
+                            <p class="right-body__text">+48 202 - 555 - 0114</p>
+                        </div>
+                        <div class="right-body__email">
+                            <h2 class="right-body__name">email</h2>
+                            <p class="right-body__text">contact@yoursite.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-menu menu">
+                        <nav class="menu-nav">
+                            <a class="menu-nav__stroke aktiv" href="#">home</a>
+                            <a class="menu-nav__stroke" href="#what">What i do</a>
+                            <a class="menu-nav__stroke" href="#works">My works</a>
+                            <a class="menu-nav__stroke" href="#about">About</a>
+                            <a class="menu-nav__stroke" href="#footer">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
